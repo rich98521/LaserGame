@@ -1,0 +1,70 @@
+﻿Build started 16/06/2016 21:27:02.
+     1>Project "D:\Dropbox\LaserGame\First SFML Program\First SFML Program.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\LaserGame.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\LaserGame.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Battery.cpp Diamond.cpp Laser.cpp LaserGame.cpp LaserEmitter.cpp Leaf.cpp Level.cpp Mirror.cpp Portal.cpp Tile.cpp Wall.cpp
+         Battery.cpp
+         Diamond.cpp
+         Laser.cpp
+     1>Laser.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>Laser.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Laser.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Laser.cpp(120): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Laser.cpp(121): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Laser.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Laser.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>Laser.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>Laser.cpp(164): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         LaserGame.cpp
+     1>LaserGame.cpp(38): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>LaserGame.cpp(84): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         LaserEmitter.cpp
+     1>LaserEmitter.cpp(13): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Leaf.cpp
+         Level.cpp
+     1>Level.cpp(7): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Level.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Level.cpp(171): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Level.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>Level.cpp(216): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>Level.cpp(218): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Level.cpp(218): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Level.cpp(244): warning C4018: '<' : signed/unsigned mismatch
+         Mirror.cpp
+     1>Mirror.cpp(22): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Portal.cpp
+     1>Portal.cpp(27): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Tile.cpp
+     1>Tile.cpp(7): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Tile.cpp(9): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Tile.cpp(39): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Tile.cpp(55): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Wall.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\LaserGame\Release\LaserGame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\LaserGame\Release\LaserGame.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\LaserGame\Release\LaserGame.lib" /MACHINE:X86 /SAFESEH Release\Battery.obj
+         Release\Diamond.obj
+         Release\Laser.obj
+         Release\LaserGame.obj
+         Release\LaserEmitter.obj
+         Release\Leaf.obj
+         Release\Level.obj
+         Release\Mirror.obj
+         Release\Portal.obj
+         Release\stdafx.obj
+         Release\Tile.obj
+         Release\Wall.obj
+         Generating code
+         Finished generating code
+         First SFML Program.vcxproj -> D:\Dropbox\LaserGame\Release\LaserGame.exe
+     1>Done Building Project "D:\Dropbox\LaserGame\First SFML Program\First SFML Program.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.36

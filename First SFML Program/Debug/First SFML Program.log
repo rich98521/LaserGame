@@ -1,0 +1,58 @@
+﻿Build started 16/06/2016 21:26:17.
+     1>Project "D:\Dropbox\LaserGame\First SFML Program\First SFML Program.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\LaserGame.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LaserGame.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Battery.cpp Diamond.cpp Laser.cpp LaserEmitter.cpp LaserGame.cpp Leaf.cpp Level.cpp Mirror.cpp Portal.cpp Tile.cpp Wall.cpp
+         Level.cpp
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(7): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(170): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(171): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(216): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(218): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(218): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\level.cpp(244): warning C4018: '<' : signed/unsigned mismatch
+         Laser.cpp
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(120): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(121): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\dropbox\lasergame\first sfml program\laser.cpp(164): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+         Compiling...
+         Battery.cpp
+     1>d:\dropbox\lasergame\first sfml program\battery.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Diamond.cpp
+     1>d:\dropbox\lasergame\first sfml program\diamond.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         LaserEmitter.cpp
+     1>d:\dropbox\lasergame\first sfml program\laseremitter.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         LaserGame.cpp
+     1>d:\dropbox\lasergame\first sfml program\lasergame.cpp(5): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Leaf.cpp
+     1>d:\dropbox\lasergame\first sfml program\leaf.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Mirror.cpp
+     1>d:\dropbox\lasergame\first sfml program\mirror.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Portal.cpp
+     1>d:\dropbox\lasergame\first sfml program\portal.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Tile.cpp
+     1>d:\dropbox\lasergame\first sfml program\tile.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Wall.cpp
+     1>d:\dropbox\lasergame\first sfml program\wall.cpp(1): fatal error C1033: cannot open program database 'd:\dropbox\lasergame\first sfml program\debug\vc110.idb'
+         Generating Code...
+     1>Done Building Project "D:\Dropbox\LaserGame\First SFML Program\First SFML Program.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.80
